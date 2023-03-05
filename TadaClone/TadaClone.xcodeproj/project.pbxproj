@@ -13,6 +13,16 @@
 		E6D6FADD29B4828E005C6008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D6FADB29B4828E005C6008 /* Main.storyboard */; };
 		E6D6FADF29B4828F005C6008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D6FADE29B4828F005C6008 /* Assets.xcassets */; };
 		E6D6FAE229B4828F005C6008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D6FAE029B4828F005C6008 /* LaunchScreen.storyboard */; };
+		E6D6FAEF29B48310005C6008 /* UIStoryboard+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6FAEE29B48310005C6008 /* UIStoryboard+.swift */; };
+		E6D6FAF429B48318005C6008 /* TextField in Resources */ = {isa = PBXBuildFile; fileRef = E6D6FAF029B48318005C6008 /* TextField */; };
+		E6D6FAF529B48318005C6008 /* View in Resources */ = {isa = PBXBuildFile; fileRef = E6D6FAF129B48318005C6008 /* View */; };
+		E6D6FAF629B48318005C6008 /* Button in Resources */ = {isa = PBXBuildFile; fileRef = E6D6FAF229B48318005C6008 /* Button */; };
+		E6D6FAF729B48318005C6008 /* Label in Resources */ = {isa = PBXBuildFile; fileRef = E6D6FAF329B48318005C6008 /* Label */; };
+		E6D6FAF929B4831F005C6008 /* FontDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6FAF829B4831F005C6008 /* FontDictionary.swift */; };
+		E6D6FAFC29B48324005C6008 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6FAFA29B48324005C6008 /* Coordinator.swift */; };
+		E6D6FAFD29B48324005C6008 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6FAFB29B48324005C6008 /* AppCoordinator.swift */; };
+		E6D6FB0029B4832A005C6008 /* PhoneInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6FAFE29B48329005C6008 /* PhoneInputViewController.swift */; };
+		E6D6FB0129B4832A005C6008 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6FAFF29B4832A005C6008 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,18 @@
 		E6D6FADE29B4828F005C6008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6D6FAE129B4828F005C6008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6D6FAE329B4828F005C6008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D6FAEE29B48310005C6008 /* UIStoryboard+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+.swift"; path = "../../../../../Downloads/tadaClone/tadaClone/Extensions/UIStoryboard+.swift"; sourceTree = "<group>"; };
+		E6D6FAF029B48318005C6008 /* TextField */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TextField; path = ../../../../../Downloads/tadaClone/tadaClone/Components/TextField; sourceTree = "<group>"; };
+		E6D6FAF129B48318005C6008 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; name = View; path = ../../../../../Downloads/tadaClone/tadaClone/Components/View; sourceTree = "<group>"; };
+		E6D6FAF229B48318005C6008 /* Button */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Button; path = ../../../../../Downloads/tadaClone/tadaClone/Components/Button; sourceTree = "<group>"; };
+		E6D6FAF329B48318005C6008 /* Label */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Label; path = ../../../../../Downloads/tadaClone/tadaClone/Components/Label; sourceTree = "<group>"; };
+		E6D6FAF829B4831F005C6008 /* FontDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontDictionary.swift; path = ../../../../../Downloads/tadaClone/tadaClone/Fonts/FontDictionary.swift; sourceTree = "<group>"; };
+		E6D6FAFA29B48324005C6008 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = ../../../../../Downloads/tadaClone/tadaClone/Coordinators/Coordinator.swift; sourceTree = "<group>"; };
+		E6D6FAFB29B48324005C6008 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppCoordinator.swift; path = ../../../../../Downloads/tadaClone/tadaClone/Coordinators/AppCoordinator.swift; sourceTree = "<group>"; };
+		E6D6FAFE29B48329005C6008 /* PhoneInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhoneInputViewController.swift; path = ../../../../../Downloads/tadaClone/tadaClone/ViewControllers/PhoneInputViewController.swift; sourceTree = "<group>"; };
+		E6D6FAFF29B4832A005C6008 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../../../Downloads/tadaClone/tadaClone/ViewControllers/MainViewController.swift; sourceTree = "<group>"; };
+		E6D6FB0229B483D5005C6008 /* SpoqaHanSansNeo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Bold.ttf"; sourceTree = "<group>"; };
+		E6D6FB0329B483D5005C6008 /* SpoqaHanSansNeo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,11 @@
 		E6D6FAD429B4828E005C6008 /* TadaClone */ = {
 			isa = PBXGroup;
 			children = (
+				E6D6FAE929B482D3005C6008 /* ViewControllers */,
+				E6D6FAEA29B482DB005C6008 /* Coordinators */,
+				E6D6FAEB29B482E9005C6008 /* Fonts */,
+				E6D6FAEC29B482F0005C6008 /* Components */,
+				E6D6FAED29B482F8005C6008 /* Extensions */,
 				E6D6FAD529B4828E005C6008 /* AppDelegate.swift */,
 				E6D6FAD729B4828E005C6008 /* SceneDelegate.swift */,
 				E6D6FAD929B4828E005C6008 /* ViewController.swift */,
@@ -65,6 +92,53 @@
 				E6D6FAE329B4828F005C6008 /* Info.plist */,
 			);
 			path = TadaClone;
+			sourceTree = "<group>";
+		};
+		E6D6FAE929B482D3005C6008 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6D6FAFF29B4832A005C6008 /* MainViewController.swift */,
+				E6D6FAFE29B48329005C6008 /* PhoneInputViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E6D6FAEA29B482DB005C6008 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E6D6FAFB29B48324005C6008 /* AppCoordinator.swift */,
+				E6D6FAFA29B48324005C6008 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		E6D6FAEB29B482E9005C6008 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E6D6FB0229B483D5005C6008 /* SpoqaHanSansNeo-Bold.ttf */,
+				E6D6FB0329B483D5005C6008 /* SpoqaHanSansNeo-Regular.ttf */,
+				E6D6FAF829B4831F005C6008 /* FontDictionary.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E6D6FAEC29B482F0005C6008 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E6D6FAF229B48318005C6008 /* Button */,
+				E6D6FAF329B48318005C6008 /* Label */,
+				E6D6FAF029B48318005C6008 /* TextField */,
+				E6D6FAF129B48318005C6008 /* View */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E6D6FAED29B482F8005C6008 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6D6FAEE29B48310005C6008 /* UIStoryboard+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +201,10 @@
 			files = (
 				E6D6FAE229B4828F005C6008 /* LaunchScreen.storyboard in Resources */,
 				E6D6FADF29B4828F005C6008 /* Assets.xcassets in Resources */,
+				E6D6FAF429B48318005C6008 /* TextField in Resources */,
+				E6D6FAF729B48318005C6008 /* Label in Resources */,
+				E6D6FAF529B48318005C6008 /* View in Resources */,
+				E6D6FAF629B48318005C6008 /* Button in Resources */,
 				E6D6FADD29B4828E005C6008 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D6FAEF29B48310005C6008 /* UIStoryboard+.swift in Sources */,
 				E6D6FADA29B4828E005C6008 /* ViewController.swift in Sources */,
+				E6D6FB0029B4832A005C6008 /* PhoneInputViewController.swift in Sources */,
+				E6D6FAFC29B48324005C6008 /* Coordinator.swift in Sources */,
+				E6D6FAF929B4831F005C6008 /* FontDictionary.swift in Sources */,
 				E6D6FAD629B4828E005C6008 /* AppDelegate.swift in Sources */,
+				E6D6FB0129B4832A005C6008 /* MainViewController.swift in Sources */,
 				E6D6FAD829B4828E005C6008 /* SceneDelegate.swift in Sources */,
+				E6D6FAFD29B48324005C6008 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +376,6 @@
 				INFOPLIST_FILE = TadaClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +403,6 @@
 				INFOPLIST_FILE = TadaClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
